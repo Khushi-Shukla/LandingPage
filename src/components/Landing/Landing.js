@@ -2,6 +2,7 @@ import { Box, Button, FormControl, IconButton, TextField, Typography } from '@mu
 import React from 'react'
 import Footer from '../Footer/Footer'
 import Header from '../Header/Header'
+import Services from '../Services/Services'
 
 const Landing = () => {
   return (
@@ -48,6 +49,7 @@ const Landing = () => {
               </Typography>
             </Box>
         </Box>
+        <Services />
         <Footer />
       </Box>
       

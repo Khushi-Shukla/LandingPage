@@ -31,19 +31,15 @@ const Header = () => {
                     sx={{
                         mr: 2,
                         display: { xs: 'none', md: 'flex' },
-                        fontFamily: 'monospace',
-                        fontWeight: 700,
-                        letterSpacing: '.3rem',
-                        color: 'blue',
-                        textDecoration: 'none',
+                        
                         }}
                     >
-                    LOGO
+                    <img src="/images/logo.png" alt="logo" height="80" />
                 </Typography>        
                 <Autocomplete 
                     id="choose-location"
                     options={locations}
-                    sx={{ width: 250,  display: { sm: 'none', md: 'flex' } }}
+                    sx={{ width: 250,  display: { xs: 'none', md: 'flex' } }}
                     renderInput={(params) => (
                         <TextField
                           {...params}
@@ -59,7 +55,7 @@ const Header = () => {
                 <Autocomplete 
                     id="choose-location"
                     options={locations}
-                    sx={{ width: 250, m:2, display: { sm: 'none', md: 'flex' } }}
+                    sx={{ width: 250, m:2, display: { xs: 'none', md: 'flex' } }}
                     renderInput={(params) => (
                         <TextField
                           {...params}
@@ -73,7 +69,7 @@ const Header = () => {
                     />
 
                 <Box sx={{flexGrow: 1}} />
-                <Box sx={{display: { sm: 'none', md: 'flex' } }}>
+                <Box sx={{display: { xs: 'none', md: 'flex' } }}>
                     <IconButton sx={{m:'1rem'}} className='icon'>
                         <Stack alignItems="center">
                             <Home />

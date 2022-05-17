@@ -1,0 +1,79 @@
+/* Typoograhy{
+} */
+.typo:hover{
+    color:#1c6484;
+}
+
+.feedback { 
+	transition: all .2s ease-in-out; 
+}
+.feedback:hover {
+    transform: scale(1.2);
+}
+
+.hidden{
+    display: none; 
+   
+    
+}
+.dental:hover .box{
+    animation-name: moveInleft;
+    animation-duration: 5s;
+}
+.box:hover  .hidden{
+    display: block;
+}
+
+
+.box:hover .title{
+    display: none;
+}
+
+.text1{
+    
+    animation-name: moveInleft;
+    animation-duration: 3s;
+}
+
+ .text2{
+    animation-name: moveInRight;
+    animation-duration: 3s;
+
+}
+
+.incubator{
+    animation-name: moveInleft;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moveInleft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    80% {
+        transform: translateX(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    80% {
+        transform: translateX(-10px);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+
+}
