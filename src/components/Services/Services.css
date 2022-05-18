@@ -18,7 +18,7 @@
 }
 .dental:hover .box{
     animation-name: moveInleft;
-    animation-duration: 5s;
+    animation-duration: 2s;
 }
 .box:hover  .hidden{
     display: block;
@@ -40,10 +40,46 @@
     animation-duration: 3s;
 
 }
-
 .incubator{
-    animation-name: moveInleft;
-    animation-iteration-count: infinite;
+    width: 10rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .incubator{
+        width: 10rem;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .incubator{
+        width: 13rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .incubator{
+        width: 19rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .incubator{
+        width: 4rem;
+    }
+}
+
+.blue:hover{
+    box-shadow: 0px 30px 40px -20px blue;
+}
+
+.red:hover{
+    box-shadow: 0px 30px 40px -20px red;
+}
+.green:hover{
+    box-shadow: 0px 30px 40px -20px green;
+}
+.brown:hover{
+    box-shadow: 0px 30px 40px -20px brown;
 }
 
 @keyframes moveInleft {

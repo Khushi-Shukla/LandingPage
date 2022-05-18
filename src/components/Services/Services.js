@@ -59,33 +59,33 @@ const Services = () => {
            {/* Dental Specialties*/}
            <Typography sx={{m:3}} variant="h4" color="#1c6484" >Dental Specialties</Typography>
            
-           <Box className="dental" sx={{display:"flex", m:3, justifyContent:"space-around"}}>
+           <Box className="dental" sx={{display:"flex", flexWrap:{xs:"wrap", md:"nowrap"}, m:3, justifyContent:"space-around"}}>
             
-             <Box className='box' sx={{width:"14rem", height:"7rem", borderRadius: "5px", boxShadow: "0px 30px 40px -20px #2e80a3", borderTop: "3px solid #206cdc", p:3,}}>
-               <Typography className='title' variant="h6" color="#2e80a3" sx={{p:4}}>Pedodontist</Typography>
-               <Typography fontSize={13} className="hidden">
+             <Box className='box' sx={{width:{xs:"5rem", sm:"8rem", md:"10rem", lg:"15rem"}, height:"7rem", borderRadius: "5px", boxShadow: "0px 30px 40px -20px #2e80a3", borderTop: "3px solid #206cdc", p:3,}}>
+               <Typography className='title'  fontSize={{xs:8, sm:15, md:20}} color="#2e80a3" sx={{p:4, m:1}}>Pedodontist</Typography>
+               <Typography fontSize={{xs:7,sm:8, md:13}} className="hidden">
                     Contrary to popular belief, Lorem Ipsum is2000 years old. Richard McClintock,  in Virginia, looked up one  classical literature, discovered the undoubtable source.
                </Typography>
 
              </Box>
-             <Box className='box' sx={{width:"14rem", height:"7rem", position: "relative", top: '100px', borderRadius: "5px", boxShadow: "0px 30px 40px -20px #2e80a3", borderTop: "3px solid #206cdc", p:3,}}>
-               <Typography className='title' variant="h6" color="#2e80a3" sx={{p:3}} >Oral & Maxillofacial Surgeon</Typography>
-               <Typography fontSize={13} className="hidden">
+             <Box className='box' sx={{width:{xs:"5rem", sm:"8rem", md:"10rem", lg:"15rem"}, height:"7rem", position: "relative", top: {md:'100px'}, borderRadius: "5px", boxShadow: "0px 30px 40px -20px #2e80a3", borderTop: "3px solid #206cdc", p:3,}}>
+               <Typography className='title'  fontSize={{xs:8, sm:15, md:20}} color="#2e80a3" sx={{p:3, m:1}} >Oral & Maxillofacial Surgeon</Typography>
+               <Typography fontSize={{xs:7,sm:8, md:13}} className="hidden">
                     Contrary to popular belief, Lorem Ipsum is2000 years old. Richard McClintock,  in Virginia, looked up one  classical literature, discovered the undoubtable source.
                </Typography>
 
              </Box>
 
-             <Box className='box' sx={{width:"14rem", height:"7rem", borderRadius: "5px", boxShadow: "0px 30px 40px -20px #2e80a3", borderTop: "3px solid #206cdc", p:3,}}>
-               <Typography className='title' variant="h6" color="#2e80a3" sx={{p:4}}>Periodontist</Typography>
-               <Typography fontSize={13} className="hidden">
+             <Box className='box' sx={{width:{xs:"5rem", sm:"8rem", md:"10rem", lg:"15rem"}, height:"7rem", borderRadius: "5px", boxShadow: "0px 30px 40px -20px #2e80a3", borderTop: "3px solid #206cdc", p:3,}}>
+               <Typography className='title' fontSize={{xs:8, sm:15, md:20}} color="#2e80a3" sx={{p:4, m:1}}>Periodontist</Typography>
+               <Typography fontSize={{xs:7,sm:8, md:13}} className="hidden">
                     Contrary to popular belief, Lorem Ipsum is2000 years old. Richard McClintock,  in Virginia, looked up one  classical literature, discovered the undoubtable source.
                </Typography>
 
              </Box>
-             <Box className='box' sx={{width:"14rem", height:"7rem", position: "relative", top: '100px', borderRadius: "5px", boxShadow: "0px 30px 40px -20px #2e80a3", borderTop: "3px solid #206cdc", p:3,}}>
-               <Typography className='title' variant="h6" color="#2e80a3" sx={{p:4}}>Orthodontist</Typography>
-              <Typography fontSize={13} className="hidden">
+             <Box className='box' sx={{width:{xs:"5rem", sm:"8rem", md:"10rem", lg:"15rem"}, height:"7rem", position: "relative", top: {md:'100px'}, borderRadius: "5px", boxShadow: "0px 30px 40px -20px #2e80a3", borderTop: "3px solid #206cdc", p:3,}}>
+               <Typography className='title' fontSize={{xs:8, sm:15, md:20}} color="#2e80a3" sx={{p:4, m:1}}>Orthodontist</Typography>
+              <Typography fontSize={{xs:7,sm:8, md:13}} className="hidden">
                     Contrary to popular belief, Lorem Ipsum is2000 years old. Richard McClintock,  in Virginia, looked up one  classical literature, discovered the undoubtable source.
                </Typography>
 
@@ -96,37 +96,37 @@ const Services = () => {
             {/* Meet our Specialties*/}
             <Typography sx={{m:3, mt:20}} variant="h4" color="#1c6484" >Meet Our Specialties</Typography>
             
-            <Box sx={{display:"flex", direction:"rows",justifyContent:"space-evenly", m: 2, p:1}}>
+            <Box sx={{display:"flex", flexDirection:{xs:"column", sm:"row"}, flexWrap:"wrap", justifyContent:"space-evenly", m: 2, p:1}}>
               <Box sx={{m:2, top:"100px"}}>
-                <Avatar src="/images/img1.jpeg" alt="img" sx={{height:"8rem", width:"8rem"}} />
+                <Avatar src="/images/img1.jpeg" alt="img" sx={{m:"auto", height:"8rem", width:"8rem"}} />
                 <Typography>Dr Jayant Yadav<br/>BDS MDS<br/>General Dentist</Typography>
               </Box>
               <Box sx={{m:2}}>
-                <Avatar src="/images/img2.jpg" alt="img" sx={{height:"8rem", width:"8rem"}} />
+                <Avatar src="/images/img2.jpg" alt="img" sx={{m:"auto", height:"8rem", width:"8rem"}} />
                 <Typography>Dr Deepti Maskara<br/>General Dentist</Typography>
               </Box>
               <Box sx={{m:2, top:"100px"}}>
-                <Avatar src="/images/img3.jpg" alt="img" sx={{height:"8rem", width:"8rem"}} />
+                <Avatar src="/images/img3.jpg" alt="img" sx={{ m:"auto", height:"8rem", width:"8rem"}} />
                 <Typography>Dr. Neelu Arora<br/>BDS MDS<br/>Prosthodontics</Typography>
               </Box>
               <Box sx={{m:2}}>
-                <Avatar src="/images/img4.jpeg" alt="img" sx={{height:"8rem", width:"8rem"}} />
+                <Avatar src="/images/img4.jpeg" alt="img" sx={{m:"auto", height:"8rem", width:"8rem"}} />
                 <Typography>Dr. Sukhwant Yadav<br/>BDS MDS<br/>Endodontist</Typography>
               </Box>
             </Box>
 
             {/* Why Us */}
-            <Typography sx={{m:3}} variant="h4" color="#1c6484" >Why Us</Typography>
-            <Box sx={{display:"flex", m:3, justifyContent:"space-between"}} >
-              <Box sx={{mt:"9rem"}}><Typography  variant="h6">We bring the health ecosystem together and make sure the patient receives the best.</Typography></Box>
+            <Typography sx={{m:{md:3}}} variant="h4" color="#1c6484" >Why Us</Typography>
+            <Box sx={{display:"flex", m:3, justifyContent:"space-between", flexWrap:{xs:"wrap", md:"nowrap"}}} >
+              <Box sx={{mt: {md:"9rem" }}}><Typography  variant="h6">We bring the health ecosystem together and make sure the patient receives the best.</Typography></Box>
               <Box  sx={{mt:2, display:"flex", flexDirection:"column"}}>
-                <Card sx={{p:6, m:3}} className="text1" variant="outlined"><Typography fontWeight="bold" color="blue">An initiative by AIIMS Alumni</Typography></Card>
-                <Card sx={{p:6, m:3}} className="text2" variant="outlined"><Typography fontWeight="bold" color="red" >Science-Backed Blogs to enhance your knowledge</Typography></Card>
+                <Card id="blue" sx={{  p:6, m:3, boxShadow:"0px 30px 40px -20px blue"}} className="text1" variant="outlined"><Typography fontWeight="bold" color="blue">An initiative by AIIMS Alumni</Typography></Card>
+                <Card id="red" sx={{p:6, m:3, boxShadow:"0px 30px 40px -20px red" }} className="text2" variant="outlined"><Typography fontWeight="bold" color="red" >Science-Backed Blogs to enhance your knowledge</Typography></Card>
 
               </Box>
               <Box sx={{mt:-2,mr:2, display:"flex", flexDirection:"column"}}>
-                <Card sx={{p:6, m:3}} className="text1" variant="outlined"><Typography fontWeight="bold" color="green">Dentists are chosen after a rigorous Selection Process</Typography></Card>
-                <Card sx={{p:6, m:3}} className="text2" variant="outlined"><Typography fontWeight="bold" color="brown">All Dental Specialists on a single platform</Typography></Card>
+                <Card id="green" sx={{p:6, m:3, boxShadow:"0px 30px 40px -20px green"}} className="text1" variant="outlined"><Typography fontWeight="bold" color="green">Dentists are chosen after a rigorous Selection Process</Typography></Card>
+                <Card sx={{p:6, m:3, boxShadow:"0px 30px 40px -20px brown"}} className="text2" variant="outlined"><Typography fontWeight="bold" color="brown">All Dental Specialists on a single platform</Typography></Card>
 
               </Box>
 
@@ -135,28 +135,28 @@ const Services = () => {
 
           {/* Incubators */}
           <Typography sx={{m:3}} variant="h4" color="#1c6484" >Our Incubators</Typography>
-          <Box sx={{display: "flex",mb:4, justifyContent:"space-around"}}>
-            <img className='incubator' src="/images/incubator1.png" width="300" alt="incubator" />
-            <img className='incubator' src="/images/incubator2.png" width="300" alt="incubator" />
-            <img className='incubator' src="/images/incubator3.png" width="300" alt="incubator" />
+          <Box sx={{display: "flex", flexWrap:"wrap", mb:4, justifyContent:"space-around"}}>
+            <img className='incubator' src="/images/incubator1.png" alt="incubator" />
+            <img className='incubator' src="/images/incubator2.png" alt="incubator" />
+            <img className='incubator' src="/images/incubator3.png" alt="incubator" />
           </Box>
           
           {/* Our Users Reactions */}
           <Box sx={{p:4}} >
             <Typography sx={{m:3}} variant="h4" color="#1c6484"  >Our Users Reactions</Typography>
-            <Box sx={{display:"flex", justifyContent:"space-around", }} >
+            <Box sx={{display:"flex", flexWrap:{xs:"wrap", sm:"nowrap"}, justifyContent:"space-around", }} >
               
-              <Box className="feedback" sx={{width:"20rem", p:2, border:"3px solid #3c92d8", borderRadius:"0.3rem"}} >
+              <Box className="feedback" sx={{width:"20rem", p:2, m:1, border:"3px solid #3c92d8", borderRadius:"0.3rem"}} >
                   <Rating size="small" value="4" readOnly />
                   <Typography color="#3c92d8"  variant="h6">John Doe</Typography>
                   <Typography >Very good app. Well thought out about booking/canceling an appointment. Also, Doctor's feedback mechanism is good and describes all the basics in a good way</Typography>
               </Box>
-              <Box className="feedback" sx={{width:"20rem",p:2, border:"3px solid #3c92d8", borderRadius:"0.3rem"}} >
+              <Box className="feedback" sx={{width:"20rem",p:2, m:1, border:"3px solid #3c92d8", borderRadius:"0.3rem"}} >
                   <Rating size="small" value="5" readOnly />
                   <Typography color="#3c92d8"  variant="h6">Nancy Drew</Typography>
                   <Typography >This app is really flawless. Good for elderly people. Best part of the app is home</Typography>
               </Box>
-              <Box className="feedback" sx={{width:"20rem", p:2,border:"3px solid #3c92d8", borderRadius:"0.3rem"}} >
+              <Box className="feedback" sx={{width:"20rem", p:2, m:1, border:"3px solid #3c92d8", borderRadius:"0.3rem"}} >
                   <Rating size="small" value="4" readOnly />
                   <Typography color="#3c92d8" variant="h6">John Doe</Typography>
                   <Typography>Very good app. Well thought out about booking/canceling an appointment. Also, Doctor's feedback mechanism is good and describes all the basics in a good way</Typography>
