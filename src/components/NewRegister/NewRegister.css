@@ -1,0 +1,19 @@
+.img{
+     object-fit: cover;
+    display: flex;
+    justify-content: flex-start;
+    /* width: 100%; */
+    /* overflow: scroll; */
+    /* height:10rem; */
+     opacity: 0.8;
+ 
+
+}
+
+.curve svg{
+    display: block;
+}
+
+.curve{
+    background: linear-gradient(to bottom right, #2923ac, #2454cd, #2064dc, #206cdc);
+}

@@ -8,11 +8,12 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import './Services.css'
 
 const Services = () => {
+
   return (
       <Box>
 
         {/* Services */}
-          <Typography variant="h4" color="#1c6484" >Dental Disease & Treatment</Typography>
+          <Typography variant="h4" color="#1c6484" >Dental Diseases & Treatment</Typography>
           {/* <Carousel  autoPlay> */}
           <Marquee
             pauseOnHover
@@ -120,13 +121,13 @@ const Services = () => {
             <Box sx={{display:"flex", m:3, justifyContent:"space-between", flexWrap:{xs:"wrap", md:"nowrap"}}} >
               <Box sx={{mt: {md:"9rem" }}}><Typography  variant="h6">We bring the health ecosystem together and make sure the patient receives the best.</Typography></Box>
               <Box  sx={{mt:2, display:"flex", flexDirection:"column"}}>
-                <Card id="blue" sx={{  p:6, m:3, boxShadow:"0px 30px 40px -20px blue"}} className="text1" variant="outlined"><Typography fontWeight="bold" color="blue">An initiative by AIIMS Alumni</Typography></Card>
-                <Card id="red" sx={{p:6, m:3, boxShadow:"0px 30px 40px -20px red" }} className="text2" variant="outlined"><Typography fontWeight="bold" color="red" >Science-Backed Blogs to enhance your knowledge</Typography></Card>
+                <Card id="blue" sx={{  p:6, m:3, boxShadow:"0px 20px 30px -10px #9ee7ff"}} className="text1" variant="outlined"><Typography fontWeight="bold" color="blue">An initiative by AIIMS Alumni</Typography></Card>
+                <Card id="red" sx={{p:6, m:3, boxShadow:"0px 20px 30px -10px #ff4d4d" }} className="text2" variant="outlined"><Typography fontWeight="bold" color="red" >Science-Backed Blogs to enhance your knowledge</Typography></Card>
 
               </Box>
               <Box sx={{mt:-2,mr:2, display:"flex", flexDirection:"column"}}>
-                <Card id="green" sx={{p:6, m:3, boxShadow:"0px 30px 40px -20px green"}} className="text1" variant="outlined"><Typography fontWeight="bold" color="green">Dentists are chosen after a rigorous Selection Process</Typography></Card>
-                <Card sx={{p:6, m:3, boxShadow:"0px 30px 40px -20px brown"}} className="text2" variant="outlined"><Typography fontWeight="bold" color="brown">All Dental Specialists on a single platform</Typography></Card>
+                <Card id="green" sx={{p:6, m:3, boxShadow:"0px 20px 30px -10px #a8f7a1"}} className="text1" variant="outlined"><Typography fontWeight="bold" color="green">Dentists are chosen after a rigorous Selection Process</Typography></Card>
+                <Card sx={{p:6, m:3, boxShadow:"0px 20px 30px -10px #f78f45"}} className="text2" variant="outlined"><Typography fontWeight="bold" color="brown">All Dental Specialists on a single platform</Typography></Card>
 
               </Box>
 
